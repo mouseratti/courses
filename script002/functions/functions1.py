@@ -1,5 +1,7 @@
+
 def my_function(arg1):
-    return arg1 * arg1
+    result = arg1 * arg1
+    return
 
 
 def my_function2(arg1, arg2):
@@ -9,8 +11,5 @@ def my_function2(arg1, arg2):
     return arg1 / arg2
 
 
-
-def with_optional_param(required, optional=None):
-    if optional is None:
-        return required ** 0
-    return required ** optional
+def with_optional_param(required, nnn=0):
+    return required ** nnn

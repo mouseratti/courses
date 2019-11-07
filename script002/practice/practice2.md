@@ -24,7 +24,6 @@ by each out of two arguments.
 (4, 1, 4)     ->  true  
 (15, -5, 3)   ->  true
 
-
 1. Write a funtion to print the index of the character in a string.  
    Sample string: Chevron  
         Expected output:  

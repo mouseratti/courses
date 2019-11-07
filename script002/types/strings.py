@@ -23,8 +23,8 @@ space.startswith('s')
 space.split()
 space.count()
 space.find('1')
-' ' in space
 
+' ' in space
 ########## String formatting
 ## .format
 placeholdered_without_any_order = "{} is {} but not {}"
