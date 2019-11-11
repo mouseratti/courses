@@ -10,6 +10,8 @@
 1. urllib, requests, json
 1. unittests
 1. mocking
+1. benchmarks
 1. unicode in Python
 1. virtualenv, own python packages
-1. benchmarks
+1. Threads, multiprocessing
+1. regular expressions

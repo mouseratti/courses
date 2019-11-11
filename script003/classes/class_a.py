@@ -33,13 +33,16 @@ class B():
 class C(B,A):
     property_c = []
 
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.property_c = []
+    # def __init__(self, *args, **kwargs):
+    #     super().__init__(*args, **kwargs)
+    #     self.property_c = []
 
     def method_c(self):
         print("method of C")
 
+    # def __add__(self, other):
+    #     self.property_c += other.property_c
+    #     return self
 
 if __name__ == '__main__':
     c1 = C("string")
@@ -49,3 +52,15 @@ if __name__ == '__main__':
     print(C.property_c, c1.property_c, c2.property_c)
     print(C.__dict__, c1.__dict__, c2.__dict__)
     print(C.__bases__)
+
+    def runtime_method(self, arg1="non-empty string"):
+        print(self)
+        print(arg1)
+        return
+
+    C.runtime_method = runtime_method
+    c1.runtime_method()
+    c2.instance_method = runtime_method
+    c2.instance_method(c2)
+    # c1_runtime_method = c1.runtime_method
+    # c1_runtime_method()
