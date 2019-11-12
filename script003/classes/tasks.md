@@ -5,5 +5,5 @@ attribute, use `@property`)
 instantiated – (20 chars from char pools A-Z,1-9).  
 Use `string.ascii_uppercase`  
 1. User should be able to compare orders based on created_at value.
-Older orders are ‘bigger’
+Older orders are _bigger_
 
