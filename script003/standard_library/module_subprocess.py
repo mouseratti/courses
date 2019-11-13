@@ -1,5 +1,6 @@
 import subprocess
 import signal
+# https://www.programcreek.com/python/example/13966/signal.CTRL_C_EVENT
 
 # simple blocking run
 result = subprocess.run("ping mail.ru -c 2 -s 1200".split())
