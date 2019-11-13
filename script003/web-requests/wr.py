@@ -1,6 +1,7 @@
 """
 https://jsonplaceholder.typicode.com/posts
 http://docs.python-requests.org/en/master/user/quickstart/#make-a-request
+https://requests.kennethreitz.org/en/master/
 """
 # import urllib3
 import requests
